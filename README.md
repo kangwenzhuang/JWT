@@ -6,6 +6,9 @@
 克隆项目，导入maven工程，更新项目即可运行
 先运行，后自行搭建完善，导入test.sql文件，mysql版本8.0，其他版本自行百度解决问题,配置自己数据库
 
+学习之前先读两篇文章理解token
+一、数字签名https://blog.csdn.net/qq_16645099/article/details/82872751
+二、token原理https://www.cnblogs.com/java-jun-world2099/p/9146143.html
 你将学到的东西
 1.自定义注解
 2.全局异常捕获和拦截器
