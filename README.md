@@ -302,3 +302,15 @@ public class UserController {
 全局返回格式统一
 
 接下来就是测试：
+登陆成功获取token
+![image](https://github.com/kangwenzhuang/JWT/blob/master/src/photos/1.png)
+
+将获取的token加入请求头
+![image](https://github.com/kangwenzhuang/JWT/blob/master/src/photos/2.png)
+
+过60秒就要过期了，虽然请求成功，但是response的头部多了一个，见下图
+![image](https://github.com/kangwenzhuang/JWT/blob/master/src/photos/3.png)
+![image](https://github.com/kangwenzhuang/JWT/blob/master/src/photos/4.png)
+
+token过期
+![image](https://github.com/kangwenzhuang/JWT/blob/master/src/photos/5.png)
