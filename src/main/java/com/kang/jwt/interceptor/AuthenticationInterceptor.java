@@ -30,10 +30,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.lang.reflect.Method;
 
-/**
- * @author jinbin
- * @date 2018-07-08 20:41
- */
+
 public class AuthenticationInterceptor implements HandlerInterceptor {
     private static final Logger logger = LoggerFactory.getLogger(AuthenticationInterceptor.class);
     @Autowired
